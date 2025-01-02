@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+
+    --bg-primary-dark: #1C2025;
+    --bg-secondary-dark: #262B31;
+    --bg-tertiary-dark: #2B3037;
+
+    --text-primary-dark: #F5F5F1;
+    --text-secondary-dark: #DBDBD8;
+
+    --border-dark: #2F353C;
+
+    --electric-blue-dark: #00A6FB;
+
+    --purple-dark: #7C3AED;
+    --sky-dark: #0EA5E9;
+    --teal-dark: #14B8A6;
+
+    --purple-hover-dark: #8B5CF6;
+    --sky-hover-dark: #38BDF8;
+    --teal-hover-dark: #2DD4BF;
+
+}
