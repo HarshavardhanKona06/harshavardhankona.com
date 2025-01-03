@@ -1,10 +1,16 @@
 import type { Metadata } from "next";
-import { Montserrat, EB_Garamond, Fira_Code } from "next/font/google";
+import { Montserrat, Poppins, Fira_Code, Fira_Sans } from "next/font/google";
 import "./globals.css";
 import React from "react";
 
 const montserrat = Montserrat({
     variable: "--font-montserrat",
+    weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+    subsets: ["latin"],
+});
+
+const poppins = Poppins({
+    variable: "--font-poppins",
     weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
     subsets: ["latin"],
 });
@@ -15,9 +21,9 @@ const firaCode = Fira_Code({
     subsets: ["latin"],
 });
 
-const ebGaramond = EB_Garamond({
-    variable: "--font-ebGaramond",
-    weight: ["400", "500", "600", "700", "800"],
+const firaSans = Fira_Sans({
+    variable: "--font-fira-sans",
+    weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
     subsets: ["latin"],
 });
 
@@ -32,8 +38,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="antialiased">
-      <body className={`${montserrat.variable} ${firaCode.variable} ${ebGaramond.variable}`}>
+    <html lang="en" className={`${montserrat.variable} ${poppins.variable} ${firaCode.variable} ${firaSans.variable}`}>
+      <body className="bg-bg-primary-dark antialiased">
         {children}
       </body>
     </html>

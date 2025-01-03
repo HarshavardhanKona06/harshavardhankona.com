@@ -30,7 +30,8 @@ export default {
       fontFamily: {
         'montserrat': 'var(--font-montserrat)',
         'firaCode': 'var(--font-fira-code)',
-        'ebGaramond': 'var(--font-ebGaramond)',
+        'poppins': 'var(--font-poppins)',
+        'firaSans': 'var(--font-fira-sans)',
       },
     },
   },
