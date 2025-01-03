@@ -10,17 +10,14 @@
 
     --text-primary-dark: #F5F5F1;
     --text-secondary-dark: #DBDBD8;
+    --text-tertiary-dark: #DBDBD8CC;  /* here CC represents 80% opacity */
 
     --border-dark: #2F353C;
 
-    --electric-blue-dark: #00A6FB;
+    --teal-dark: #448FA3;
+    --teal-hover-dark: #68C5DB;
 
-    --purple-dark: #7C3AED;
-    --sky-dark: #0EA5E9;
-    --teal-dark: #14B8A6;
-
-    --purple-hover-dark: #8B5CF6;
-    --sky-hover-dark: #38BDF8;
-    --teal-hover-dark: #2DD4BF;
+    --saffron-dark: #D68C45;
+    --saffron-hover-dark: #E9A35C;
 
 }
